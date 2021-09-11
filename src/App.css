@@ -1,38 +1,93 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin {
+  width: 500px;
+  min-height: 450px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px #001324dc;
+}
+
+.signin_wrapper {
+  background: #0087ffde;
+}
+
+.signin_success {
+  background: #005baa;
+}
+.signin_success h1 {
+  letter-spacing: 1px;
+}
+.signin_success p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+form {
+  padding: 20px 50px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 25px;
+}
+
+div.textField {
+  width: 100%;
+  margin: 12px 10px;
+}
+
+div.textField input {
+  font-size: 20px;
+}
+div.textField svg {
+  font-size: 25px;
+}
+
+button {
+  background: #001324dc;
+  width: 100%;
+  line-height: 35px;
+  margin: 20px 9px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.error_msg {
+  color: #ff0000e0;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span.signup {
+  color: #ffffffde;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  text-align: center;
+  margin-top: 15px;
 }
